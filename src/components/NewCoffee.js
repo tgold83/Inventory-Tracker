@@ -12,7 +12,6 @@ function NewCoffee(props){
       origin: event.target.origin.value,
       roast: event.target.roast.value,
       price: event.target.price.value,
-      quantity: parseInt(event.target.quantity.value),
       id: v4()
     })
   }
